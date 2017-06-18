@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" onKeyPressed="#esckey" prefHeight="618.0" prefWidth="906.0" style="-fx-background-color: #597062;" stylesheets="@JMetroDarkTheme.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scanner.FXMLDocumentController">
+    <children>
+      <TableView fx:id="tablebook" onKeyPressed="#esckey" layoutX="53.0" layoutY="27.0" prefHeight="553.0" prefWidth="802.0" style="-fx-background-color: #AFC1B9;" stylesheets="@JMetroDarkTheme.css">
+        <columns>
+          <TableColumn fx:id="numcol"   prefWidth="64.0" text="№" />
+          <TableColumn fx:id="filescol" prefWidth="144.0" text="Number of files" />
+          <TableColumn fx:id="urlcol" prefWidth="593.0" text="URL" />
+        </columns>
+      </TableView>
+    </children>
+</AnchorPane>
